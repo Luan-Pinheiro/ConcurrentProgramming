@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="mainAP" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerThread">
+   <children>
+      <ImageView fx:id="arvGenImg" fitHeight="450.0" fitWidth="800.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@arvoreGen.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnStart" alignment="CENTER" layoutX="341.0" layoutY="371.0" mnemonicParsing="false" onAction="#OnClickBtnStart" prefHeight="33.0" prefWidth="119.0" stylesheets="@style.css" text="INICIAR" textAlignment="CENTER" textFill="#361313">
+         <font>
+            <Font size="4.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="paiImg" fitHeight="54.0" fitWidth="51.0" layoutX="545.0" layoutY="267.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="segFilhoImg" fitHeight="54.0" fitWidth="57.0" layoutX="387.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="primFilhoImg" fitHeight="54.0" fitWidth="58.0" layoutX="542.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="terFilhoImg" fitHeight="60.0" fitWidth="58.0" layoutX="690.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="primNetoImg" fitHeight="54.0" fitWidth="58.0" layoutX="549.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="primBisnetoImg" fitHeight="54.0" fitWidth="58.0" layoutX="549.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="segNetoImg" fitHeight="54.0" fitWidth="57.0" layoutX="400.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="labelSegFilho" alignment="CENTER_RIGHT" layoutX="387.0" layoutY="252.0" prefHeight="17.0" prefWidth="51.0" stylesheets="@style.css" text="anos">
+         <graphic>
+            <Text fx:id="txtSegFilho" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="16.0">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+            </Text>
+         </graphic></Label>
+      <Label fx:id="labelPrimFilho" alignment="CENTER_RIGHT" layoutX="545.0" layoutY="244.0" prefHeight="17.0" prefWidth="51.0" stylesheets="@style.css" text="anos">
+         <graphic>
+            <Text fx:id="txtPrimFilho" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="16.0">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+            </Text>
+         </graphic>
+      </Label>
+      <Label fx:id="labelPai" alignment="CENTER_RIGHT" layoutX="552.0" layoutY="316.0" prefHeight="17.0" prefWidth="51.0" stylesheets="@style.css" text="anos">
+         <graphic>
+            <Text fx:id="txtPai" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="16.0">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+            </Text>
+         </graphic>
+      </Label>
+      <Label fx:id="labelTercFilho" alignment="CENTER_RIGHT" layoutX="694.0" layoutY="244.0" prefHeight="17.0" prefWidth="51.0" stylesheets="@style.css" text="anos">
+         <graphic>
+            <Text fx:id="txtTercFilho" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="16.0">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+            </Text>
+         </graphic>
+      </Label>
+      <Label fx:id="labelPrimNeto" alignment="CENTER_RIGHT" layoutX="545.0" layoutY="159.0" prefHeight="17.0" prefWidth="51.0" stylesheets="@style.css" text="anos">
+         <graphic>
+            <Text fx:id="txtPrimNeto" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="16.0">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+            </Text>
+         </graphic>
+      </Label>
+      <Label fx:id="labelSegNeto" alignment="CENTER_RIGHT" layoutX="403.0" layoutY="159.0" prefHeight="17.0" prefWidth="51.0" stylesheets="@style.css" text="anos">
+         <graphic>
+            <Text fx:id="txtSegNeto" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="16.0">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+            </Text>
+         </graphic>
+      </Label>
+      <Label fx:id="labelBisneto" alignment="CENTER_RIGHT" layoutX="552.0" layoutY="68.0" prefHeight="17.0" prefWidth="51.0" stylesheets="@style.css" text="anos">
+         <graphic>
+            <Text fx:id="txtBisneto" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="16.0">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+            </Text>
+         </graphic>
+      </Label>
+   </children>
+</AnchorPane>

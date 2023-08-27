@@ -1,0 +1,65 @@
+/* ***************************************************************
+* Autor............: Luan Pinheiro Azevedo
+* Matricula........: 202110904
+* Inicio...........: 21/03/2023
+* Ultima alteracao.: 24/03/2023
+* Nome.............: Arvore genealógica em Java
+* Funcao...........: Estilizacao das tags no FXML
+*************************************************************** */
+#btnStart {
+  -fx-background-color: rgb(60, 244, 155);
+  -fx-font: 15pt "Times New Roman"; 
+  -fx-font-weight: bold;
+  -fx-border-color: rgb(255, 255, 255);
+  -fx-border-width: 2.5px;
+  -fx-border-radius: 1px;
+  
+}
+#btnStart:hover {
+  -fx-border-color: rgb(17, 233, 17);
+  -fx-border-width: 2.5px;
+  -fx-border-radius: 1px;
+  -fx-background-color:  rgba(166, 217, 173, 0.464);
+}
+#labelPai {
+  -fx-border-color: rgb(255, 255, 255);
+  -fx-border-width: 1px;
+  -fx-border-radius: 1px;
+  -fx-background-color: rgb(60, 244, 155);
+}
+#labelPrimFilho {
+  -fx-border-color: rgb(255, 255, 255);
+  -fx-border-width: 1px;
+  -fx-border-radius: 1px;
+  -fx-background-color: rgb(60, 244, 155);
+}
+#labelSegFilho {
+  -fx-border-color: rgb(255, 255, 255);
+  -fx-border-width: 1px;
+  -fx-border-radius: 1px;
+  -fx-background-color: rgb(60, 244, 155);
+}
+#labelTercFilho {
+  -fx-border-color: rgb(255, 255, 255);
+  -fx-border-width: 1px;
+  -fx-border-radius: 1px;
+  -fx-background-color: rgb(60, 244, 155);
+}
+#labelPrimNeto {
+  -fx-border-color: rgb(255, 255, 255);
+  -fx-border-width: 1px;
+  -fx-border-radius: 1px;
+  -fx-background-color: rgb(60, 244, 155);
+}
+#labelSegNeto {
+  -fx-border-color: rgb(255, 255, 255);
+  -fx-border-width: 1px;
+  -fx-border-radius: 1px;
+  -fx-background-color: rgb(60, 244, 155);
+}
+#labelBisneto {
+  -fx-border-color: rgb(255, 255, 255);
+  -fx-border-width: 1px;
+  -fx-border-radius: 1px;
+  -fx-background-color: rgb(60, 244, 155);
+}

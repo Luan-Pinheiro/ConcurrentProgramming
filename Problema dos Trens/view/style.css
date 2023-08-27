@@ -1,0 +1,32 @@
+#btnInit{
+  -fx-border-color: rgb(39, 73, 39);
+  -fx-background-color:   #2BC228;
+  -fx-background-radius: 5px;
+  -fx-border-color: white;
+  -fx-border-radius: 5px;  
+  -fx-border-width: 2px;
+  -fx-text-fill: white;
+  -fx-font-size: 16px;
+  -fx-font-weight: bold;
+  -fx-font-style: italic;
+}
+#btnReturn{
+  -fx-border-color: rgb(39, 73, 39);
+  -fx-background-color:   #2BC228;
+  -fx-background-radius: 5px;
+  -fx-border-color: white;
+  -fx-border-radius: 5px;
+  -fx-border-width: 2px;
+  -fx-text-fill: white;
+  -fx-font-size: 16px;
+  -fx-font-weight: bold;
+  -fx-font-style: italic;
+}
+#btnInit:hover{
+  -fx-border-color: rgb(39, 73, 39);
+  -fx-background-color:  rgba(166, 217, 173, 0.464);
+}
+#btnReturn:hover{
+  -fx-border-color: rgb(39, 73, 39);
+  -fx-background-color:  rgba(166, 217, 173, 0.464);
+}

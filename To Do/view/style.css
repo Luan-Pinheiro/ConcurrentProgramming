@@ -1,0 +1,114 @@
+/* ***
+* Autor............: Luan Pinheiro Azevedo
+* Matricula........: 202110904
+* Inicio...........: 13/02/2023
+* Ultima alteracao.: 18/02/2023
+* Nome.............: ToJavaDO
+* Funcao...........: Uma aplicação que permite agendar e organizar afazeres em seus dias específicos
+utilizando arquivos para armazenamento de dados cadastrados. No programa há a possibilidade de manipulação
+dos horários agendados.
+**/
+#btnOpen {
+  -fx-background-color: rgb(109, 214, 99);
+  -fx-font: 14pt "Arial"; 
+  -fx-font-weight: bold;
+}
+#btnOpen:hover {
+  -fx-background-color:  rgba(163, 255, 151, 0.744);
+}
+#btnLogin{
+  -fx-background-color: rgb(109, 214, 99);
+  -fx-font: 14pt "Arial"; 
+  -fx-font-weight: bold;
+}
+#btnLogin:hover {
+  -fx-background-color: rgba(163, 255, 151, 0.744);
+}
+#btnCad {
+  -fx-background-color: #6dd663;
+  -fx-font: 14pt "Arial"; 
+  -fx-font-weight: bold;
+}
+#btnCad:hover {
+  -fx-background-color:  rgba(163, 255, 151, 0.744);
+}
+#btnReturn:hover {
+  -fx-background-color:  rgba(163, 255, 151, 0.744);
+}
+
+#btnRegister{
+  -fx-background-color: rgb(109, 214, 99);
+  -fx-font: 14pt "Arial"; 
+  -fx-font-weight: bold;
+}
+
+#btnReturn{
+  -fx-background-color: rgb(109, 214, 99);
+  -fx-font: 14pt "Arial"; 
+  -fx-font-weight: bold;
+}
+
+#btnOk {
+  -fx-background-color: #6dd663;
+  -fx-font: 14pt "Arial"; 
+  -fx-font-weight: bold;
+}
+#btnOk:hover {
+  -fx-background-color:  rgba(163, 255, 151, 0.744);
+}
+#btnOkF {
+  -fx-background-color: #df1919;
+  -fx-font: 14pt "Arial"; 
+  -fx-font-weight: bold;
+}
+#btnOkF:hover{   
+  -fx-background-color:  rgba(255, 151, 151, 0.744);
+}
+
+#lblUser{ 
+  -fx-background-color: transparent;
+  -fx-font: 16pt "Times New Roman"; 
+  -fx-font-weight: bold;
+  -fx-border-color: #6dd663;
+  -fx-border-width: 0px 0px 2px;
+    
+}
+#tbvToDo{ 
+  -fx-background-color: rgb(105, 108, 101);
+  -fx-font: 14pt "Times New Roman"; 
+  -fx-font-weight: bold;
+  -fx-border-radius: 5px;
+  -fx-border-color: #6dd663;
+  -fx-border-width: 2px;
+    
+}
+#txtBarDate{
+  -fx-background-color: rgba(155, 163, 143, 0.713);
+  -fx-border-radius: 5px;
+  -fx-border-color: #6dd663;
+  -fx-border-width: 0px 0px 2px;
+}
+#txtBartoDo{
+  -fx-background-color: rgba(155, 163, 143, 0.713);
+  -fx-border-radius: 5px;
+  -fx-border-color: #6dd663;
+  -fx-border-width: 0px 0px 2px;
+}
+#txtPassword{
+  -fx-background-color: rgba(155, 163, 143, 0.713);
+  -fx-border-radius: 5px;
+  -fx-border-color: #6dd663;
+  -fx-border-width: 0px 0px 2px;
+}
+#txtUser{
+  -fx-background-color: rgba(155, 163, 143, 0.713);
+  -fx-border-radius: 5px;
+  -fx-border-color: #6dd663;
+  -fx-border-width: 0px 0px 2px;
+}
+#txtUsername{
+  -fx-background-color: rgba(155, 163, 143, 0.713);
+  -fx-border-radius: 5px;
+  -fx-border-color: #6dd663;
+  -fx-border-width: 0px 0px 2px;
+}

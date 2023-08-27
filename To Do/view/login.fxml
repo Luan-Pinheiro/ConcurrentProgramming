@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="880.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginScreenController">
+   <children>
+      <ImageView fx:id="imgStart" fitHeight="522.0" fitWidth="880.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/login.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnLogin" layoutX="274.0" layoutY="418.0" mnemonicParsing="false" onAction="#OnClickBtnLogin" stylesheets="@style.css" text="Entrar" />
+      <Button fx:id="btnCad" layoutX="479.0" layoutY="418.0" mnemonicParsing="false" onAction="#OnClickBtnCad" stylesheets="@style.css" text="Cadastrar" />
+      <TextField fx:id="txtUser" alignment="CENTER" layoutX="132.0" layoutY="178.0" prefHeight="27.0" prefWidth="375.0" promptText="Nome de Usuário" stylesheets="@style.css" />
+      <ImageView fitHeight="99.0" fitWidth="70.0" layoutX="24.0" layoutY="399.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/paper.png" />
+         </image>
+      </ImageView>
+      <PasswordField fx:id="txtPassword" alignment="CENTER" layoutX="132.0" layoutY="271.0" prefHeight="25.0" prefWidth="375.0" promptText="Senha" stylesheets="@style.css" />
+   </children>
+</AnchorPane>

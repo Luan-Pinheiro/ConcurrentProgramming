@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerPC">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="820.0" layoutX="-10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Tela.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBox3D" fitHeight="30.0" fitWidth="30.0" layoutX="385.0" layoutY="308.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/produto.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="14.0" layoutY="6.0" prefHeight="189.0" prefWidth="274.0" style="-fx-background-radius: 15px; -fx-background-color: #F18839; -fx-border-color: black; -fx-border-width: 2px; -fx-border-radius: 15px;">
+         <children>
+            <Label layoutX="40.0" layoutY="14.0" style="-fx-text-fill: Black; -fx-font-size: 15px; -fx-font-weight: bold;" text="Controle de velocidades" />
+            <Label alignment="CENTER" layoutX="13.0" layoutY="106.0" style="-fx-text-fill: Black; -fx-font-style: italic; -fx-font-weight: bold; -fx-font-size: 12px;" text=" Consumidor :" />
+            <Slider fx:id="sliderProd" layoutX="13.0" layoutY="63.0" prefHeight="20.0" prefWidth="150.0" style="-fx-background-color: black; -fx-background-radius: 10px; -fx-border-color: white; -fx-border-width: 2px; -fx-border-radius: 10px;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Slider>
+            <Label alignment="CENTER" layoutX="14.0" layoutY="40.0" style="-fx-text-fill: Black; -fx-font-style: italic; -fx-font-weight: bold; -fx-font-size: 12px;" text=" Produtor :" />
+            <Slider fx:id="sliderConsu" layoutX="18.0" layoutY="140.0" prefHeight="20.0" prefWidth="150.0" style="-fx-background-color: black; -fx-background-radius: 10px; -fx-border-color: white; -fx-border-width: 2px; -fx-border-radius: 10px;" />
+            <Button fx:id="btnPausarConsu" alignment="CENTER" layoutX="181.0" layoutY="130.0" mnemonicParsing="false" onAction="#OnClickBtnPausarConsu" prefHeight="40.0" prefWidth="74.0" style="-fx-background-radius: 13px; -fx-border-radius: 10px; -fx-border-width: 2px; -fx-text-fill: white; -fx-font-weight: bold;" stylesheets="@style.css" text="Pausar" />
+            <Button fx:id="btnPausarProd" alignment="CENTER" layoutX="181.0" layoutY="53.0" mnemonicParsing="false" onAction="#OnClickBtnPausarProd" prefHeight="40.0" prefWidth="74.0" style="-fx-background-radius: 13px; -fx-border-radius: 10px; -fx-border-width: 2px; -fx-text-fill: white; -fx-font-weight: bold;" stylesheets="@style.css" text="Pausar" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="btnIniciar" alignment="CENTER" layoutX="331.0" layoutY="135.0" mnemonicParsing="false" onAction="#OnClickBtnIniciar" prefHeight="40.0" prefWidth="95.0" style="-fx-border-radius: 10px; -fx-border-width: 2px; -fx-text-fill: white; -fx-font-weight: bold;" stylesheets="@style.css" text="Iniciar" />
+      <Button fx:id="btnReiniciar" alignment="CENTER" layoutX="446.0" layoutY="135.0" mnemonicParsing="false" onAction="#OnClickBtnReiniciar" prefHeight="40.0" prefWidth="95.0" style="-fx-background-radius: 13px; -fx-border-radius: 10px; -fx-border-width: 2px; -fx-text-fill: white; -fx-font-weight: bold;" stylesheets="@style.css" text="Reiniciar" />
+      <ImageView fx:id="imgCam1" fitHeight="64.0" fitWidth="94.0" layoutX="119.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Caminhao1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgCam2" fitHeight="64.0" fitWidth="94.0" layoutX="622.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Caminhao2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBox1D" fitHeight="30.0" fitWidth="30.0" layoutX="378.0" layoutY="323.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/produto.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBox2D" fitHeight="30.0" fitWidth="30.0" layoutX="400.0" layoutY="323.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/produto.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnEncerrar" alignment="CENTER" layoutX="559.0" layoutY="135.0" mnemonicParsing="false" onAction="#OnClickBtnEncerrar" prefHeight="40.0" prefWidth="95.0" style="-fx-background-radius: 13px; -fx-border-radius: 10px; -fx-border-width: 2px; -fx-text-fill: white; -fx-font-weight: bold;" stylesheets="@style.css" text="Encerrar" />
+      <ImageView fitHeight="120.0" fitWidth="429.0" layoutX="296.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/title.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

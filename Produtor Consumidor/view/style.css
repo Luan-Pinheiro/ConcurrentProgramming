@@ -1,0 +1,41 @@
+#btnIniciar{
+  -fx-border-color:  white;
+  -fx-background-color:   #09BA4F;
+  -fx-background-radius:  13px;
+}
+#btnPausarConsu{
+  -fx-background-color:  #BA0909;
+  -fx-border-color: white;
+}
+#btnPausarProd{
+  -fx-background-color:  #BA0909;
+  -fx-border-color: white;
+}
+#btnReiniciar{
+  -fx-background-color:  #BAA809;
+  -fx-border-color: white;
+}
+#btnEncerrar{
+  -fx-background-color:  #4d241f;
+  -fx-border-color: white;
+}
+#btnIniciar:hover{
+  -fx-border-color: rgb(39, 73, 39);
+  -fx-background-color:  rgba(61, 228, 83, 0.464);
+}
+#btnPausarConsu:hover{
+  -fx-border-color: rgb(100, 63, 63);
+  -fx-background-color:  rgba(236, 103, 103, 0.464);
+}
+#btnPausarProd:hover{
+  -fx-border-color: rgb(100, 63, 63);
+  -fx-background-color:  rgba(236, 103, 103, 0.464);
+}
+#btnReiniciar:hover{
+  -fx-border-color: rgb(106, 110, 43);
+  -fx-background-color:  rgba(159, 185, 39, 0.464);
+}
+#btnEncerrar:hover{
+  -fx-border-color: rgb(62, 41, 41);
+  -fx-background-color:  rgb(41, 13, 13);
+}

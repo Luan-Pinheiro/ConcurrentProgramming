@@ -1,0 +1,39 @@
+#btnCarro1,#btnCarro2,#btnCarro3,#btnCarro4,#btnCarro5,#btnCarro6,#btnCarro7,#btnCarro8{
+  -fx-background-color:rgba(50, 13, 13, 0);
+  -fx-background-radius: 15px;
+}
+#btnCarro1:hover,#btnCarro2:hover,#btnCarro3:hover,#btnCarro4:hover,#btnCarro5:hover,#btnCarro6:hover,#btnCarro7:hover,#btnCarro8:hover{
+  -fx-background-color: #47101040;
+}
+#sldCarro1,#sldCarro2,#sldCarro3,#sldCarro4,#sldCarro5,#sldCarro6,#sldCarro7,#sldCarro8{
+  -fx-color:   #651818;;
+  -fx-background-color:   #b5090974;
+  -fx-text-fill: white;
+  -fx-font-size:11px;
+  -fx-border-width:2px;
+  -fx-border-color: white;
+  -fx-border-radius: 3px;
+  -fx-background-radius: 4px;
+  -fx-font-weight: bold;
+}
+#btnIniciar{
+  -fx-background-color:rgba(50, 13, 13, 0);
+  -fx-background-radius: 15px;
+}
+#btnReiniciar{
+  -fx-background-color:rgba(50, 13, 13, 0);
+  -fx-background-radius: 15px;
+}
+#btnEncerrar{
+  -fx-background-color:rgba(50, 13, 13, 0);
+  -fx-background-radius: 15px;
+}
+#btnIniciar:hover{
+  -fx-background-color: #47101040;
+}
+#btnReiniciar:hover{
+  -fx-background-color: #47101040;
+}
+#btnEncerrar:hover{
+  -fx-background-color: #47101040;
+}

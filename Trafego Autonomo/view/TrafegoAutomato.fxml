@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="532.0" prefWidth="759.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControladorTrafego">
+   <children>
+      <ImageView fitHeight="541.0" fitWidth="771.0" layoutX="-3.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/Screen.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnReiniciar" layoutX="641.0" layoutY="19.0" mnemonicParsing="false" onAction="#OnClickReiniciar" prefHeight="39.0" prefWidth="34.0" stylesheets="@style.css" />
+      <Button fx:id="btnIniciar" layoutX="583.0" layoutY="19.0" mnemonicParsing="false" onAction="#OnClickIniciar" prefHeight="39.0" prefWidth="41.0" stylesheets="@style.css" />
+      <Button fx:id="btnEncerrar" layoutX="697.0" layoutY="21.0" mnemonicParsing="false" onAction="#OnClickEncerrar" prefHeight="34.0" prefWidth="34.0" stylesheets="@style.css" />
+      <Slider fx:id="sldCarro1" layoutX="26.0" layoutY="94.0" prefHeight="17.0" prefWidth="98.0" stylesheets="@style.css" />
+      <Slider fx:id="sldCarro2" layoutX="24.0" layoutY="153.0" prefHeight="17.0" prefWidth="98.0" stylesheets="@style.css" />
+      <Slider fx:id="sldCarro3" layoutX="24.0" layoutY="201.0" prefHeight="17.0" prefWidth="98.0" stylesheets="@style.css" />
+      <Slider fx:id="sldCarro7" layoutX="24.0" layoutY="429.0" prefHeight="17.0" prefWidth="98.0" stylesheets="@style.css" />
+      <Slider fx:id="sldCarro6" layoutX="24.0" layoutY="373.0" prefHeight="17.0" prefWidth="98.0" stylesheets="@style.css" />
+      <Slider fx:id="sldCarro5" layoutX="26.0" layoutY="314.0" prefHeight="17.0" prefWidth="98.0" stylesheets="@style.css" />
+      <Slider fx:id="sldCarro4" layoutX="24.0" layoutY="253.0" prefHeight="17.0" prefWidth="98.0" stylesheets="@style.css" />
+      <Slider fx:id="sldCarro8" layoutX="24.0" layoutY="489.0" prefHeight="17.0" prefWidth="98.0" stylesheets="@style.css" />
+      <ImageView fx:id="imgStop1" fitHeight="54.0" fitWidth="34.0" layoutX="131.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/pause.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgStop2" fitHeight="54.0" fitWidth="34.0" layoutX="131.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/pause.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgStop3" fitHeight="54.0" fitWidth="34.0" layoutX="131.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/pause.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgStop4" fitHeight="54.0" fitWidth="34.0" layoutX="131.0" layoutY="245.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/pause.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgStop5" fitHeight="54.0" fitWidth="34.0" layoutX="131.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/pause.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgStop6" fitHeight="54.0" fitWidth="34.0" layoutX="131.0" layoutY="365.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/pause.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgStop7" fitHeight="54.0" fitWidth="34.0" layoutX="131.0" layoutY="421.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/pause.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgStop8" fitHeight="54.0" fitWidth="34.0" layoutX="131.0" layoutY="472.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/pause.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgPlay8" fitHeight="54.0" fitWidth="34.0" layoutX="131.0" layoutY="472.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/play.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgPlay2" fitHeight="54.0" fitWidth="34.0" layoutX="131.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/play.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgPlay3" fitHeight="54.0" fitWidth="34.0" layoutX="131.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/play.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgPlay4" fitHeight="54.0" fitWidth="34.0" layoutX="131.0" layoutY="245.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/play.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgPlay5" fitHeight="54.0" fitWidth="34.0" layoutX="131.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/play.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgPlay6" fitHeight="54.0" fitWidth="34.0" layoutX="131.0" layoutY="365.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/play.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgPlay7" fitHeight="54.0" fitWidth="34.0" layoutX="131.0" layoutY="421.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/play.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgPlay1" fitHeight="54.0" fitWidth="34.0" layoutX="131.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/play.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnCarro7" layoutX="131.0" layoutY="421.0" mnemonicParsing="false" onAction="#OnClickPauseCarro7" prefHeight="34.0" prefWidth="34.0" stylesheets="@style.css" />
+      <Button fx:id="btnCarro8" layoutX="131.0" layoutY="472.0" mnemonicParsing="false" onAction="#OnClickPauseCarro8" prefHeight="34.0" prefWidth="34.0" stylesheets="@style.css" />
+      <Button fx:id="btnCarro2" layoutX="131.0" layoutY="145.0" mnemonicParsing="false" onAction="#OnClickPauseCarro2" prefHeight="34.0" prefWidth="34.0" stylesheets="@style.css" />
+      <Button fx:id="btnCarro3" layoutX="131.0" layoutY="193.0" mnemonicParsing="false" onAction="#OnClickPauseCarro3" prefHeight="34.0" prefWidth="34.0" stylesheets="@style.css" />
+      <Button fx:id="btnCarro4" layoutX="131.0" layoutY="245.0" mnemonicParsing="false" onAction="#OnClickPauseCarro4" prefHeight="34.0" prefWidth="34.0" stylesheets="@style.css" />
+      <Button fx:id="btnCarro5" layoutX="131.0" layoutY="306.0" mnemonicParsing="false" onAction="#OnClickPauseCarro5" prefHeight="34.0" prefWidth="34.0" stylesheets="@style.css" />
+      <Button fx:id="btnCarro6" layoutX="131.0" layoutY="365.0" mnemonicParsing="false" onAction="#OnClickPauseCarro6" prefHeight="34.0" prefWidth="34.0" stylesheets="@style.css" />
+      <Button fx:id="btnCarro1" layoutX="131.0" layoutY="85.0" mnemonicParsing="false" onAction="#OnClickPauseCarro1" prefHeight="34.0" prefWidth="34.0" stylesheets="@style.css" />
+      <ImageView fx:id="imgCarro1" fitHeight="34.0" fitWidth="41.0" layoutX="207.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/carro1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgCarro4" fitHeight="34.0" fitWidth="41.0" layoutX="207.0" layoutY="323.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/carro4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgCarro3" fitHeight="34.0" fitWidth="41.0" layoutX="206.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/carro3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgCarro5" fitHeight="34.0" fitWidth="41.0" layoutX="702.0" layoutY="297.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+         <image>
+            <Image url="@assets/carro5.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgCarro6" fitHeight="34.0" fitWidth="41.0" layoutX="495.0" layoutY="464.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+         <image>
+            <Image url="@assets/carro6.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgCarro7" fitHeight="34.0" fitWidth="41.0" layoutX="529.0" layoutY="399.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/carro7.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgCarro8" fitHeight="34.0" fitWidth="41.0" layoutX="289.0" layoutY="382.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@assets/carro8.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgCarro2" fitHeight="34.0" fitWidth="41.0" layoutX="679.0" layoutY="489.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/carro2.png" />
+         </image>
+         <effect>
+            <Bloom threshold="0.48" />
+         </effect>
+      </ImageView>
+   </children>
+</AnchorPane>
